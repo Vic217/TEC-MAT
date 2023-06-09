@@ -100,3 +100,23 @@ body {
     display: flex;
     justify-content: space-around;
 }
+
+/* Flexbox a clase contenedor-nav2 */
+.contenedor-nav2 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4px;
+}
+
+.contenedor-nav2 h5 {
+    padding-left: 20px;
+}
+
+.mat-bas {
+    padding-left: 38px;
+    margin-top: 0;
+}
+
+.aprender {
+    text-align: center;
+}

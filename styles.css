@@ -8,7 +8,7 @@ main {
     background-color: #E5E7EB;
 }
 
-/* Estilos de fuentes */
+/* Estilos de fuentes y decorado */
 h1 {
     font-size: 48px;
     font-weight: bolder;
@@ -44,6 +44,13 @@ main {
     color: #1F2937;
 }
 
+a {
+    text-decoration: none;
+    color: #34D233;
+    margin: 10px;
+    border: #d12424 dotted 3px;
+}
+
 /* Redondeado de imagenes y fondo de logos*/
 img {
     border-radius: 25px;
@@ -52,4 +59,36 @@ img {
 .logo {
     opacity: 50%;
     width: 35px;
+}
+
+body {
+    margin: 0;
+}
+
+.a-log {
+    border: none;
+}
+
+/* Flexbox cabecera */
+.navegacion-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.navegacion-header img{
+    margin: 18px;
+    margin-top: 10px;
+}
+
+.navegacion-header nav {
+    margin-right: 18px;
+    margin-top: 10px;
+    flex-basis: 50;
+}
+
+/* Flexbox en nav cabecera */
+.navegacion-header nav{
+    display: flex;
+    align-items: flex-start;
 }

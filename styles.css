@@ -22,8 +22,8 @@ header {
 }
 
 button {
-    color: #3882F6;
-    background-color: #0b3dc750;
+    color: #74371b;
+    background-color: #4171f7;
     font-weight: 600;
     border-radius: 10px;
     border: #081935;
@@ -48,9 +48,9 @@ main {
 
 a {
     text-decoration: none;
-    color: #34D233;
+    color: #ffffff;
     margin: 10px;
-    border: #d12424 dotted 3px;
+    border: #ffd4d4 solid 2px;
 }
 
 /* Redondeado de imagenes y fondo de logos*/
@@ -136,7 +136,7 @@ body {
 }
 
 .cuadro {
-    background-color: #b98108;
+    background-color: #be0808;
     margin-top: 16px;
     margin-bottom: 16px;
     padding: 12px;

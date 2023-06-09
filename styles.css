@@ -138,6 +138,23 @@ body {
 .cuadro {
     background-color: #b98108;
     margin-top: 16px;
+    margin-bottom: 16px;
     padding: 12px;
     border-radius: 12px;
+}
+
+/* Flexbox a footer */
+.contenedor-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+footer {
+    padding-bottom: 1px;
+}
+
+.final {
+    display: flex;
+    align-items: center;
 }

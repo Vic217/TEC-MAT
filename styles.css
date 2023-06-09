@@ -103,6 +103,7 @@ body {
 
 /* Flexbox a clase contenedor-nav2 */
 .contenedor-nav2 {
+    margin-bottom: 28px;
     display: flex;
     justify-content: space-evenly;
     gap: 4px;
@@ -123,4 +124,20 @@ body {
 
 .contenedor-main {
     text-align: center;
+    padding: 24px;
+}
+
+/* Flexbox a contenedor-section */
+.contenedor-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadro {
+    background-color: #b98108;
+    margin-top: 16px;
+    padding: 12px;
+    border-radius: 12px;
 }
